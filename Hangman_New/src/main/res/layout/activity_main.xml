@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="@drawable/hangman3"
+    >
+
+    <Button
+<<<<<<< HEAD
+        android:layout_width="100dp"
+=======
+        android:layout_width="wrap_content"
+>>>>>>> 3c5503d3a2fafd68a075975e778f5d4b489a8cc4
+        android:layout_height="wrap_content"
+        android:text="New Game"
+        android:id="@+id/btnNewGame"
+        android:textStyle="bold|italic"
+<<<<<<< HEAD
+        android:textSize="15dp"
+        android:textColor="#e4ec12"
+        android:ellipsize="middle"
+        android:layout_marginTop="31dp"
+        android:bottomLeftRadius="8dip"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:shadowColor="#ff7009" />
+
+    <Button
+        android:layout_width="110dp"
+=======
+        android:textSize="20dp"
+        android:textColor="#e4ec12"
+        android:ellipsize="middle"
+        android:background="#1618f9"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="29dp"
+        android:bottomLeftRadius="8dip"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+>>>>>>> 3c5503d3a2fafd68a075975e778f5d4b489a8cc4
+        android:layout_height="wrap_content"
+        android:text="Instructions"
+        android:id="@+id/btnInstructions"
+        android:textStyle="bold|italic"
+<<<<<<< HEAD
+        android:textSize="15dp"
+        android:textColor="#f5f240"
+        android:shadowColor="#ff3413"
+        android:layout_alignTop="@+id/btnNewGame"
+        android:layout_toRightOf="@+id/btnNewGame" />
+
+    <Button
+        android:layout_width="80dp"
+=======
+        android:textSize="20dp"
+        android:textColor="#f5f240"
+        android:background="#1618f9"
+        android:layout_alignTop="@+id/btnNewGame"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="100dp"
+>>>>>>> 3c5503d3a2fafd68a075975e778f5d4b489a8cc4
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:id="@+id/btnExit"
+        android:textStyle="bold|italic"
+<<<<<<< HEAD
+        android:textSize="15dp"
+        android:textColor="#f8fa31"
+        android:layout_alignTop="@+id/btnInstructions"
+        android:layout_alignParentRight="true"
+        android:shadowColor="#ff3910" />
+=======
+        android:textSize="20dp"
+        android:textColor="#f8fa31"
+        android:background="#1b15fc"
+        android:layout_alignTop="@+id/btnInstructions"
+        android:layout_alignParentRight="true" />
+>>>>>>> 3c5503d3a2fafd68a075975e778f5d4b489a8cc4
+
+</RelativeLayout>

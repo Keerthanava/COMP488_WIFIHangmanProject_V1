@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+<<<<<<< HEAD
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:/Program Files (x86)/gradle-1.8" />
+        <option name="useAutoImport" value="true" />
+=======
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="F:\MS_CS\COMP488_SoftwareDevelopmentForMobileApplications\AndroidStudioProjects\Hangman_NewProject" />
+>>>>>>> 3c5503d3a2fafd68a075975e778f5d4b489a8cc4
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
+

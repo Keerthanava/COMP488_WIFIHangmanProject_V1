@@ -1,0 +1,46 @@
+THINGS TO DO.....
+
+//TODO integrate wifi direct and the app
+
+-----------------------------------------------
+IN ACTIVITIES:
+------------------------------------------------
+//TODO add fragments for player 1 and 2
+
+//TODO add comments in java doc style and generate javadocs
+
+// implement a progress bar in the loading screen for player two when player 1 is entering the word
+
+// save game state so the game is not lost when the device is rotated
+
+-------------------------------------------------
+IN GAME LOGIC:
+--------------------------------------------------
+
+//check the length of the word in the screen where player 1 enters a word and set a limit on it.it should be greater than a specified length and less than some length
+
+//TODO test words with spaces in between( for ex: hello java). test if it works correctly and can be given or not
+
+//TODO implement timeouts
+
+//TODO use shared preferences to specify who is player 1 and who is player 2
+
+//TODO maintain scores in the database
+
+----------------------------------------------
+IN WIFI_DIRECT:
+----------------------------------------------
+
+//TODO add services to WiFi Direct part
+
+//TODO Add end a connection in the menu and let the user do that in the middle of the game and handle the situation accordingly
+
+------------------------------------------------
+IN USER INTERFACE:
+------------------------------------------------
+
+// fix the images in drawable
+
+// put all the buttons in another linear/relative layout so that the imageview or the word doesnt overlap with the buttons
+
+// user interface.

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111">
+
+
+<<<<<<< HEAD
+=======
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PLAYER 1"
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="#e9ef37"
+        android:shadowColor="#3e6773"
+        android:textStyle="bold|italic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+
+>>>>>>> 3c5503d3a2fafd68a075975e778f5d4b489a8cc4
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/btnBack"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:textColor="#f1f32f"
+        android:background="#100af3"
+        android:layout_marginBottom="77dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+<<<<<<< HEAD
+        android:layout_height="wrap_content"
+=======
+        android:layout_height="fill_parent"
+>>>>>>> 3c5503d3a2fafd68a075975e778f5d4b489a8cc4
+        android:id="@+id/txtwaiting"
+        android:text="@string/about_txt"
+        android:textSize="20dp"
+        android:textIsSelectable="false"
+        android:layout_centerHorizontal="true"
+<<<<<<< HEAD
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp" />
+=======
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="200dp" />
+>>>>>>> 3c5503d3a2fafd68a075975e778f5d4b489a8cc4
+
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Hangman_New/Hangman_New.iml" filepath="$PROJECT_DIR$/Hangman_New/Hangman_New.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hangman_NewProject.iml" filepath="$PROJECT_DIR$/Hangman_NewProject.iml" />
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/Keerthana_Hangman.iml" filepath="$PROJECT_DIR$/Keerthana_Hangman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Keerthanaa-comp488_wifihangmanproject-b0517279ef4a.iml" filepath="$PROJECT_DIR$/Keerthanaa-comp488_wifihangmanproject-b0517279ef4a.iml" />
+=======
+>>>>>>> 3c5503d3a2fafd68a075975e778f5d4b489a8cc4
+    </modules>
+  </component>
+</project>
+

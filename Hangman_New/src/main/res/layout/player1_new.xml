@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PLAYER 1"
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="#e9ef37"
+        android:shadowColor="#3e6773"
+        android:textStyle="bold|italic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTER A WORD :"
+        android:id="@+id/txtWord"
+<<<<<<< HEAD
+        android:textSize="15dp"
+        android:textColor="#fcac54"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="97dp"
+        android:password="false"
+        android:singleLine="false"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp" />
+=======
+        android:textSize="20dp"
+        android:textColor="#fcac54"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:password="false"
+        android:singleLine="false" />
+>>>>>>> 3c5503d3a2fafd68a075975e778f5d4b489a8cc4
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/EdittxtWord"
+        android:hint="Enter the word here!!"
+        android:layout_above="@+id/txthint"
+        android:layout_alignLeft="@+id/Edittxthint"
+        android:textColor="#ffffff"
+<<<<<<< HEAD
+        android:maxLength="12"
+        android:textStyle="bold"
+        android:textSize="18dp" />
+=======
+        android:textStyle="bold" />
+>>>>>>> 3c5503d3a2fafd68a075975e778f5d4b489a8cc4
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTER A HINT :"
+        android:id="@+id/txthint"
+<<<<<<< HEAD
+        android:textSize="15dp"
+=======
+        android:textSize="20dp"
+>>>>>>> 3c5503d3a2fafd68a075975e778f5d4b489a8cc4
+        android:textColor="#fcac54"
+        android:textStyle="bold|italic"
+        android:password="false"
+        android:singleLine="false"
+        android:layout_marginTop="45dp"
+        android:layout_below="@+id/txtWord"
+        android:layout_alignLeft="@+id/txtWord" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Edittxthint"
+        android:hint="Enter the hint here!!"
+        android:layout_alignBottom="@+id/txthint"
+        android:layout_toRightOf="@+id/txtWord"
+        android:textColor="#fff1ff"
+<<<<<<< HEAD
+        android:textStyle="bold"
+        android:textSize="18dp" />
+=======
+        android:textStyle="bold" />
+>>>>>>> 3c5503d3a2fafd68a075975e778f5d4b489a8cc4
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:id="@+id/btnPlay1"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:textColor="#f1f32f"
+        android:background="#100af3"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_marginBottom="90dp" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/btnHome1"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:textColor="#f1f32f"
+        android:background="#100af3"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_marginBottom="90dp" />
+
+</RelativeLayout>
